@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>My Favorite: Sharks</title>
+</head>
+ <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #0a1f2e;
+      color: #e0f7fa;
+      text-align: center;
+    }
+
+    h1 {
+      color: #00d4ff;
+      font-size: 3rem;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 30px auto;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px;
+      border-radius: 12px;
+    }
+
+    .shark-img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 20px auto;
+      display: block;
+      transition: transform 0.4s;
+    }
+
+    .shark-img:hover {
+      transform: scale(1.08);
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      color: #00d4ff;
+      font-weight: bold;
+    }
+
+    button {
+      background: #00d4ff;
+      color: #0a1f2e;
+      border: none;
+      padding: 14px 30px;
+      font-size: 1.2rem;
+      border-radius: 30px;
+      cursor: pointer;
+      margin: 25px 0;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    button:hover {
+      background: #00b0d0;
+      transform: translateY(-3px);
+    }
+
+    #funFact {
+      background: rgba(0, 180, 220, 0.2);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      display: none;
+      font-style: italic;
+      animation: fadeIn 1s;
+    }
+
+   </style>
+</head>
+<body>
+
+  <h1>SHARKS</h1>
+  <h2>My Favorite Ocean Predators</h2>
+
+  <div class="container">
+    <img 
+      src="https://img.redbull.com/images/q_auto,f_auto/redbullcom/2019/01/09/6e75eb9e-e502-4d1a-b92d-8af6999cbbbe/great-white-shark-nose" 
+      alt="Great White Shark" 
+      class="shark-img"
+    >
+    <p> Sharks are the most majestic creature in the ocean! They are ancient fish with cartilage skeletons,over 500 species, and have existed for over 450 million years, way before dinosaurs.
+    They have unique senses, like detecting electrical feilds. They range from tiny dwark lantern sharks to massive whale sharks. Sharks are my favourite animal on land and on water!</p>
+<button id="factBtn">Show a Fun Fact</button>
+
+    <div id="funFact">
+      Some shark species (like the Greenland shark) can live over 400 years.
+  <img 
+      src="https://cdn.oceanographicmagazine.com/wp-content/uploads/2022/01/07102108/hamemrsmile1low.jpg" 
+      alt="Hammerhead Shark" 
+      class="shark-img"
+</body>
+</html>
