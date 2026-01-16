@@ -99,5 +99,23 @@
       src="https://cdn.oceanographicmagazine.com/wp-content/uploads/2022/01/07102108/hamemrsmile1low.jpg" 
       alt="Hammerhead Shark" 
       class="shark-img"
+     >
+  </div>
+
+  <script>
+    const btn = document.getElementById('factBtn');
+    const fact = document.getElementById('funFact');
+
+    btn.addEventListener('click', () => {
+      if (fact.style.display === 'none' || fact.style.display === '') {
+        fact.style.display = 'block';
+      } else {
+        fact.style.display = 'none';
+      }
+    });
+  </script>
+
+</body>
+</html>
 </body>
 </html>
